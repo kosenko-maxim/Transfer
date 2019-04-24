@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00BCD4">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:id="@+id/text"
+            android:textSize="18dp"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:textAlignment="center"
+             />
+    <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/background"
+            android:layout_below="@+id/text"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="18sp"
+            android:layout_marginRight="18sp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp"
+            android:weightSum="80">
+
+        <!--***********Id************-->
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:weightSum="100">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="70"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+                    android:text="Id :"
+                    android:textAlignment="textEnd"
+                    android:textSize="15sp" />
+
+            <TextView
+                    android:id="@+id/tvId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="30"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+        </LinearLayout>
+
+
+        <!--***********UserName************-->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:weightSum="100">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+                    android:layout_weight="70"
+                    android:text="Username : "
+                    android:textAlignment="textEnd"
+
+                    android:textSize="15sp" />
+
+            <TextView
+                    android:id="@+id/tvUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="30"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+        </LinearLayout>
+
+        <!--***********Email************-->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:weightSum="100">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="70"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+                    android:text="Email : "
+                    android:textAlignment="textEnd"
+                    android:textSize="15sp" />
+
+            <TextView
+                    android:id="@+id/tvEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="30"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+
+            />
+        </LinearLayout>
+        <!--**************************Balance***********************************-->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:weightSum="100">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="70"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+                    android:text="Balance : "
+                    android:textAlignment="textEnd"
+                    android:textSize="15sp" />
+
+            <TextView
+                    android:id="@+id/tvBalance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="30"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+
+            />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
