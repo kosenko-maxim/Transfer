@@ -7,4 +7,4 @@
 - Moxy- Mvp архитектура
 - Dagger2 для зависимостей
 - Также задействованны RxJava2, RxBinding и Anko
-### [Скачать]{https://yadi.sk/d/fnBDi61Z0P8dnw}
+### [Скачать APK](https://yadi.sk/d/fnBDi61Z0P8dnw)
